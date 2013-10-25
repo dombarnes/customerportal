@@ -1,0 +1,64 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @institute.name %>
+</p>
+
+<p>
+  <strong>Subdomain:</strong>
+  <%= link_to "http://" + @institute.subdomain + ".trilbytv.co.uk", "http://" + @institute.subdomain + ".trilbytv.co.uk" %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @institute.address %>
+</p>
+
+<p>
+  <strong>Contact:</strong>
+  <%= @institute.contact %>
+</p>
+
+<p>
+  <strong>Contact tel:</strong>
+  <%= @institute.contact_tel %>
+</p>
+
+<p>
+  <strong>Admin contact:</strong>
+  <%= @institute.admin_contact %>
+</p>
+
+<p>
+  <strong>Admin contact tel:</strong>
+  <%= @institute.admin_contact_tel %>
+</p>
+
+<p>
+  <strong>Subscription type:</strong>
+  <%= @institute.subscription_type %>
+</p>
+
+<p>
+  <strong>Subscription start date:</strong>
+  <%= @institute.subscription_start_date %>
+</p>
+
+<p>
+  <strong>Subscription end date:</strong>
+  <%= @institute.subscription_end_date %>
+</p>
+
+<p>
+  <strong>Reseller:</strong>
+  <%= @reseller %>
+</p>
+
+<p>
+  <strong>Reseller contact:</strong>
+  <%= @institute.reseller_contact %>
+</p>
+
+<%= link_to 'Edit', edit_institute_path(@institute) %> |
+<%= link_to 'Back', institutes_path %>

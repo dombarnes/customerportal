@@ -1,0 +1,29 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: 
+  subdomain: 
+  address: 
+  contact: 
+  contact_tel: MyString
+  admin_contact: 
+  admin_contact_tel: 
+  subscription_type: 
+  subscription_start_date: 
+  subscription_end_date,: MyString
+  reseller_id: 
+  reseller_contact: MyString
+
+two:
+  name: 
+  subdomain: 
+  address: 
+  contact: 
+  contact_tel: MyString
+  admin_contact: 
+  admin_contact_tel: 
+  subscription_type: 
+  subscription_start_date: 
+  subscription_end_date,: MyString
+  reseller_id: 
+  reseller_contact: MyString
